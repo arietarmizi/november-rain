@@ -1,0 +1,36 @@
+body{
+    background:#fff;
+}
+.panel-heading {
+    padding: 0;
+    border:0;
+}
+.panel-title>a, .panel-title>a:active{
+    display:block;
+    padding:15px;
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;
+    letter-spacing:1px;
+    word-spacing:3px;
+    text-decoration:none;
+}
+.panel-heading  a:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e080";
+    float: right;
+    transition: all 0.5s;
+}
+.panel-heading.active a:before {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #333!important;
+    border-color: #ddd;
+}
+.panel-group{padding-top:7px;}
+.accordion-option .title {display: none!important;}
+.panel .panel-heading {background-color: #333!important;}
